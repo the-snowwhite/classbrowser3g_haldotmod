@@ -1,0 +1,7 @@
+--langdef=hal
+--langmap=hal:.hal
+--regex-hal=/^net[ \t]*([a-zA-Z0-9_.]+)/\1/n,net data type/
+
+--langdef=dot
+--langmap=dot:.dot
+--regex-dot=/\s([a-zA-Z0-9_.<>"]+)\s\[label=*([a-zA-Z0-9_.<>"]+)/\1/c,component/

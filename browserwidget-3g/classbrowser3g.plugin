@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=classbrowser3g
+IAge=3
+Name=Class Browser 3g haldotmod
+Description=A class browser in the side panel
+Authors=B. Clausius <barcc@gmx.de>;Frederic Back <fredericback@gmail.com>
+Copyright=Copyright 2012-2013 B. Clausius <barcc@gmx.de>;Copyright 2006-2008 Frederic Back <fredericback@gmail.com>
+Website=https://launchpad.net/gedit-classbrowser3g
