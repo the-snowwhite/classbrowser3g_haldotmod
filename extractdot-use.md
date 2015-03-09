@@ -33,7 +33,7 @@ to install requirements:
 
 
 
-### eventually gedit mod: #########
+### eventual gedit mod: #########
 
 
 ctags:
