@@ -34,7 +34,7 @@ to install requirements:
 ---
 
 ### eventual gedit mod: #########
-
+the plugin and class browser accepts both .hal and .dot files
 
 copy .ctags to homefolder
 install modded gedit plugin
