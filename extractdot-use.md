@@ -31,21 +31,15 @@ to install requirements:
 
     sudo apt-get install python-gtk2 graphviz
 
-
+---
 
 ### eventual gedit mod: #########
 
 
-ctags:
-
 copy .ctags to homefolder
+install modded gedit plugin
 
-source: (https://launchpad.net/gedit-classbrowser3g)
-
-Manual Installation
--------------------
-
-1. Install exuberant-ctags 
+1 Install exuberant-ctags 
         
         sudo apt-get install exuberant-ctags
 
@@ -57,7 +51,7 @@ Manual Installation
 
         cp -a classbrowser3g.plugin classbrowser3g ~/.local/share/gedit/plugins/
 
-3. Install the gsettings schema with the following commands:
+3 Install the gsettings schema with the following commands:
         
         sudo cp *.gschema.xml /usr/share/glib-2.0/schemas/
         sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
