@@ -58,7 +58,7 @@ install modded gedit plugin
 
 4.a copy .ctags to home folder
 
-	cp .ctags .~/
+	cp .ctags ~/
 	        
 4.b Open gedit and click `Edit -> Preferences -> Plugins` and activate the plugin
 
