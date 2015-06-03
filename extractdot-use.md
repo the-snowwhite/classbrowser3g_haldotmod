@@ -49,6 +49,8 @@ install modded gedit plugin
 	
 2.b Copy the plugin to the gedit plugins folder
 
+	cd classbrowser3g_haldotmod/browserwidget-3g
+	mkdir  -p ~/.local/share/gedit/plugins
         cp -a classbrowser3g.plugin classbrowser3g ~/.local/share/gedit/plugins/
 
 3 Install the gsettings schema with the following commands:
@@ -58,6 +60,7 @@ install modded gedit plugin
 
 4.a copy .ctags to home folder
 
+	cd ..
 	cp .ctags ~/
 	        
 4.b Open gedit and click `Edit -> Preferences -> Plugins` and activate the plugin
