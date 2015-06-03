@@ -64,6 +64,7 @@ install modded gedit plugin
 	cp .ctags ~/
 	        
 4.b Open gedit and click `Edit -> Preferences -> Plugins` and activate the plugin
+4.c load your .hal/.dot file --> open the side panel and open the class-browser tab
 
 [note: you may have to change the 2. line Loader=python3 to Loader=python in classbrowser3g.plugin]
 
